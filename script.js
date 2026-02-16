@@ -1,11 +1,9 @@
-const toggle = document.getElementById("darkToggle");
-
-toggle.addEventListener("click", () => {
+document.getElementById("darkToggle").addEventListener("click", function(){
   document.body.classList.toggle("dark");
 
   if(document.body.classList.contains("dark")){
-    toggle.innerText = "☀️";
+    this.innerText = "☀️";
   } else {
-    toggle.innerText = "🌙";
+    this.innerText = "🌙";
   }
 });
