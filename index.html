@@ -10,33 +10,29 @@
 
 <header>
   <div class="logo">Tejaswini Tapare</div>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-    <button id="darkToggle">🌙</button>
-  </nav>
+  <button id="darkToggle">🌙</button>
 </header>
+
+<nav class="mobile-nav">
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-text">
-    <h1>Hi, I'm Tejaswini Tapare</h1>
-    <h2>Frontend Developer | IT Undergrad</h2>
-    <p>
-      I design and develop responsive, scalable web applications 
-      using modern technologies. Passionate about clean UI, 
-      performance optimization and problem solving.
-    </p>
-    <div class="hero-buttons">
-      <a href="#" class="btn primary">Download Resume</a>
-      <a href="#contact" class="btn secondary">Contact Me</a>
-    </div>
-  </div>
+  <img src="tejaswi.jpg" class="profile-img" alt="Tejaswini Tapare">
+  <h1>Tejaswini Tapare</h1>
+  <h3>Frontend Developer | IT Undergrad</h3>
+  <p>
+    I build responsive, user-friendly web applications using
+    HTML, CSS, JavaScript and modern technologies.
+  </p>
 
-  <div class="hero-img">
-    <img src="profile.jpg" alt="Profile">
+  <div class="btn-group">
+    <a href="#" class="btn resume">Download Resume</a>
+    <a href="#contact" class="btn contact">Contact Me</a>
   </div>
 </section>
 
@@ -44,26 +40,22 @@
 <section id="about" class="section">
   <h2>About Me</h2>
   <p>
-    I am a final year IT student with strong fundamentals in 
-    Data Structures, Algorithms, and Object-Oriented Programming.
-    I have hands-on experience in building full-stack projects 
-    using Java, Python and MySQL. I actively practice coding 
-    and focus on writing clean, maintainable code.
+    Final year IT student with strong foundation in
+    Data Structures, OOP, Java, Python and MySQL.
+    Passionate about clean UI and problem solving.
   </p>
 </section>
 
 <!-- SKILLS -->
 <section id="skills" class="section light">
   <h2>Technical Skills</h2>
-  <div class="skills-grid">
-    <div>HTML5</div>
-    <div>CSS3</div>
-    <div>JavaScript</div>
-    <div>Core Java</div>
-    <div>Python</div>
-    <div>MySQL</div>
-    <div>Git & GitHub</div>
-    <div>Data Structures</div>
+  <div class="skills">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>Core Java</span>
+    <span>Python</span>
+    <span>MySQL</span>
   </div>
 </section>
 
@@ -71,40 +63,22 @@
 <section id="projects" class="section">
   <h2>Projects</h2>
 
-  <div class="project-container">
+  <div class="project-card">
+    <img src="emplogo.png" alt="">
+    <h3>Employee Management System</h3>
+    <p>Python + MySQL based CRUD application.</p>
+  </div>
 
-    <div class="project-card">
-      <img src="emplogo.png" alt="">
-      <h3>Employee Management System</h3>
-      <p>
-        Developed a Python + MySQL based CRUD application 
-        to manage employee records with data validation 
-        and database connectivity.
-      </p>
-      <a href="#" class="btn small">View Code</a>
-    </div>
+  <div class="project-card">
+    <img src="banklogo.jpg" alt="">
+    <h3>Banking Management System</h3>
+    <p>Java based banking system with transactions.</p>
+  </div>
 
-    <div class="project-card">
-      <img src="banklogo.jpg" alt="">
-      <h3>Banking Management System</h3>
-      <p>
-        Java-based banking system supporting account creation,
-        transactions, and history tracking using MySQL backend.
-      </p>
-      <a href="#" class="btn small">View Code</a>
-    </div>
-
-    <div class="project-card">
-      <img src="Work-Portfolio.png" alt="">
-      <h3>Portfolio Website</h3>
-      <p>
-        Responsive personal portfolio built with 
-        HTML, CSS, and JavaScript featuring dark mode 
-        and interactive UI design.
-      </p>
-      <a href="#" class="btn small">View Code</a>
-    </div>
-
+  <div class="project-card">
+    <img src="Work-Portfolio.png" alt="">
+    <h3>Portfolio Website</h3>
+    <p>Responsive HTML, CSS & JavaScript website.</p>
   </div>
 </section>
 
@@ -112,14 +86,12 @@
 <section id="contact" class="section light">
   <h2>Contact</h2>
   <p>Email: tejawinitapare13@gmail.com</p>
-  <p>LinkedIn: linkedin.com/in/tejaswini-tapare</p>
-  <p>GitHub: github.com/TejaswiniTapare-lab</p>
 </section>
 
 <footer>
-  © 2025 Tejaswini Tapare | All Rights Reserved
+  © 2025 Tejaswini Tapare
 </footer>
 
 <script src="script.js"></script>
 </body>
-</html>
+  </html>
