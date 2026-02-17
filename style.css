@@ -7,104 +7,130 @@
 
 body {
   line-height: 1.6;
-  color: #333;
 }
 
 header {
-  background: #111;
+  background: #0b2c4d;
   color: white;
-  padding: 15px 50px;
+  padding: 15px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 header nav a {
   color: white;
-  margin-left: 20px;
+  margin-left: 15px;
   text-decoration: none;
   font-size: 14px;
 }
 
-header nav a:hover {
-  color: #00adb5;
+.hero {
+  background: linear-gradient(#1c4b82,#0b2c4d);
+  color: white;
+  padding: 40px 20px;
 }
 
-.hero {
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  padding: 80px 20px;
-  background: linear-gradient(to right, #00adb5, #007b83);
-  color: white;
 }
 
 .profile-img {
   width: 150px;
-  border-radius: 50%;
+  border-radius: 10px;
   margin-bottom: 20px;
-  border: 4px solid white;
 }
 
-.hero-desc {
-  max-width: 600px;
-  margin: 20px auto;
+.hero-buttons {
+  margin-top: 15px;
 }
 
 .btn {
-  display: inline-block;
-  padding: 10px 25px;
-  background: white;
-  color: #007b83;
+  padding: 8px 18px;
   text-decoration: none;
-  margin-top: 15px;
-  border-radius: 25px;
-  font-weight: bold;
+  border-radius: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.dark {
+  background: #0b2c4d;
+  color: white;
+}
+
+.yellow {
+  background: #f4b400;
+  color: black;
 }
 
 .section {
-  padding: 70px 80px;
+  padding: 40px 20px;
+  text-align: center;
 }
 
-.section h2 {
-  margin-bottom: 25px;
-  font-size: 28px;
-  color: #007b83;
-}
-
-.light {
-  background: #f5f5f5;
+.card-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 0;
 }
 
 .card {
   background: white;
-  padding: 25px;
-  margin-bottom: 20px;
+  padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-.skills-list {
-  list-style-type: square;
-  padding-left: 25px;
-  line-height: 2;
+.blue {
+  background: #1c4b82;
+  color: white;
+}
+
+.yellow {
+  background: #f4b400;
+}
+
+.blue-bg {
+  background: #1c4b82;
+  color: white;
 }
 
 .project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
-footer {
-  text-align: center;
+.project-card {
+  background: white;
   padding: 20px;
-  background: #111;
-  color: white;
-                                                 }  margin-top:15px;
+  border-radius: 10px;
 }
 
-.skills span{
-  display:inline-block;
-  background:#1e3c72;
+.project-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.contact-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+}
+
+footer {
+  background: #0b2c4d;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}  background:#1e3c72;
   padding:6px 12px;
   border-radius:20px;
   margin:5px;
